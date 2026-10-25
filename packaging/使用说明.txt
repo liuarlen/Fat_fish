@@ -1,0 +1,71 @@
+﻿肥鱼译文 (Fat_fish) · Windows 便携版 v1.2.1
+============================================================
+
+【启动】
+1. 请把整个“Fat_fish”文件夹解压到任意位置，不要只单独复制 exe；
+2. 双击“Fat_fish.exe”即可，无需安装 Python；
+3. 首次打开可以点击“查看示例文档”，默认会用免费在线翻译自动开始；
+   也可以切换到“本地演示库”，完全离线查看示例。
+
+【功能】
+- 左侧原文、右侧译文，原位覆盖，保留 PDF 的版面、图片、表格线；
+- 滚动、翻页、缩放两栏同步；
+- 双击右栏任意译文段落，可以人工校对，译文会写入本地记忆库；
+- 导出菜单支持：原位译文 PDF、左右对照 PDF、中英对照 CSV。
+
+【免费在线翻译】
+默认使用 B站 Index-Translate 免费接口，无需注册或填写 Key，联网即可直接翻译。
+也可以选择 Google 翻译（网页免费接口，中国大陆通常需要代理）。
+公共免费服务可能限流，重要文档建议配置付费/大模型服务。
+如果网络不稳定，可以在“齿轮 → 翻译服务”切换到本地演示库。
+
+【在线翻译配置】
+本软件不附带任何付费 API Key，也不替你开通翻译账号。
+右上角“齿轮 → 翻译服务”可以选择：
+  - B站 Index-Translate（免费，无需 Key）
+  - Google 翻译（网页免费，无需 Key；视网络环境）
+  - 百度翻译开放平台（APP ID + 密钥）
+  - 有道智云（应用 ID + 应用密钥）
+  - 腾讯云机器翻译 TMT（SecretId + SecretKey + 地域）
+  - 阿里云机器翻译（AccessKey ID + AccessKey Secret + 地域）
+  - 大模型：DeepSeek / 通义千问 / 智谱 GLM / Kimi，或自定义 OpenAI 兼容接口
+填写后点击“测试连接”，成功就可以开始翻译。
+密钥会用 Windows DPAPI 加密保存在当前用户配置中。
+
+【翻译库保存位置】
+默认在 %APPDATA%\YiPagePDF\library.sqlite。
+可在“齿轮 → 本地翻译库 → 更改位置…”选择其它目录，保存设置后立即切换；
+目标目录没有库时会复制当前库过去，原文件保留作备份。
+目标目录已有库时，可选择使用目标库，或用当前库覆盖。
+
+【数据位置】
+%APPDATA%\YiPagePDF\
+  settings.json    设置和加密后的密钥（含 library_dir）
+  library.sqlite   术语库 + 翻译记忆库（可改到其它目录）
+  app.log          运行日志
+删除 library.sqlite 会清空本地术语和翻译记忆；
+整个程序是绿色的，卸载时删除程序文件夹即可。
+
+【快捷键】
+Ctrl+O        打开 PDF
+Ctrl+Enter    开始翻译
+Ctrl+S        导出原位译文 PDF
+Ctrl+L        翻译库
+Ctrl+,        设置
+Ctrl+滚轮     缩放
+Ctrl+0        适应宽度
+PageUp/Down   上一页 / 下一页
+
+【常见问题】
+- 扫描件没有文字层，需要先用 OCR 工具加文字层；
+- 竖排/旋转文本默认跳过；
+- 在线翻译需要联网，并受各服务商的额度和计费规则限制；
+- 如果没有签名证书，Windows SmartScreen 可能提示未知发布者，
+  可点击“更多信息 → 仍要运行”；
+- 启动异常时查看 %APPDATA%\YiPagePDF\app.log，或重新解压整个文件夹；
+- 请勿把 exe 单独移出文件夹，否则会缺少 _internal 运行库。
+
+版本：1.2.1
+技术栈：Qt 6 / PySide6 + PyMuPDF + SQLite
+免费翻译：B站 Index-Translate（https://github.com/bilibili/Index-Translate）
+          Google 翻译网页接口（https://translate.google.com/）

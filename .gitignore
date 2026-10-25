@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+userdata_test/
+docs/*.tmp
+*.log
+last_run.log
+build/
+dist/
+package_stage/
+package_test/
+build.log
+smoke_*.pdf
+smoke_*.pdf.log
+docs/icon_preview.png
+.DS_Store

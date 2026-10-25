@@ -1,0 +1,126 @@
+{
+  "name": "示例文章：为未来城市设计安静的技术",
+  "description": "随应用附带的离线演示语料。选择「本地演示库」后，打开示例 PDF 即可完整查看原位中文效果。",
+  "entries": [
+    {
+      "source": "URBAN SYSTEMS LAB",
+      "target": "城市系统实验室"
+    },
+    {
+      "source": "CIVIC DESIGN",
+      "target": "城市设计"
+    },
+    {
+      "source": "URBAN SYSTEMS LAB / FIELD NOTE 07 / OCTOBER 2025",
+      "target": "城市系统实验室 / 田野笔记 07 / 2025 年 10 月"
+    },
+    {
+      "source": "Designing Calm Technology for the Cities of Tomorrow",
+      "target": "为未来城市设计安静的技术"
+    },
+    {
+      "source": "How thoughtful interfaces can make urban life quieter, safer and more human.",
+      "target": "用心思缜密的界面，让城市生活更安静、更安全、也更有人情味。"
+    },
+    {
+      "source": "A research brief by the Urban Systems Lab. Written for city makers, service designers and anyone who has waited too long for a pedestrian light.",
+      "target": "城市系统实验室研究简报。写给城市缔造者、服务设计师，以及每一个在斑马线前等得太久的人。"
+    },
+    {
+      "source": "ABSTRACT",
+      "target": "摘要"
+    },
+    {
+      "source": "Cities are loud not only because of traffic. They are loud because every surface asks for attention: a screen in the elevator, a ping from the parking meter, an app that wants us to rate a bench. This brief looks at what happens when public technology is designed to ask for less.",
+      "target": "城市之所以喧闹，不只因为车流。它喧闹，是因为每一处表面都在索取注意力：电梯里的屏幕、停车计费器的提示音、一个请你给长椅打分的应用。本简报探讨：当公共技术被设计成少问一点，会发生什么。"
+    },
+    {
+      "source": "The attention tax",
+      "target": "注意力的隐形税"
+    },
+    {
+      "source": "A quieter interface",
+      "target": "更安静的界面"
+    },
+    {
+      "source": "Every notification, kiosk and blinking status light takes something from the people around it. Most of that cost never appears on a budget sheet. It appears as a parent who misses a train, a visitor who gives up on a map, or a neighbour who stops reading the noticeboard.",
+      "target": "每一次通知、每一个自助终端、每一盏闪烁的状态灯，都在从周围的人身上拿走一点什么。这笔成本很少出现在预算表上，却会表现为错过一班车的家长、放弃看地图的访客，或不再读公告栏的邻居。"
+    },
+    {
+      "source": "Calm technology does not mean technology that disappears. It means technology that knows when to stop talking. A crossing signal that simply waits. A library app that opens on the book you were reading, not on a promotion.",
+      "target": "安静的技术，并不意味着技术必须消失。它意味着技术知道何时停止说话：一个只是静静等待的路口信号；一个打开时直接回到你上次读到的那一页、而不是促销页面的图书馆应用。"
+    },
+    {
+      "source": "The shift is small in code and large in culture. It asks teams to measure the interruptions they remove, not only the features they ship.",
+      "target": "这种转变在代码里很小，在文化里却很大。它要求团队衡量自己消除了多少打扰，而不只是发布了多少功能。"
+    },
+    {
+      "source": "More information is not the answer. Attention is not a resource that can be topped up indefinitely; it is a civic condition.",
+      "target": "更多的信息并不是答案。注意力不是可以无限续杯的资源；它是一种公共条件。"
+    },
+    {
+      "source": "\"The best interface may be the one that asks the least of us and still leaves us more capable than before.\"",
+      "target": "“最好的界面，也许是对我们索取最少的那个——却仍让我们比从前更有能力。”"
+    },
+    {
+      "source": "A working principle for public-interest technology.",
+      "target": "面向公共利益的技术，一条工作原则。"
+    },
+    {
+      "source": "FIELD NOTE 07 / 2025",
+      "target": "田野笔记 07 / 2025"
+    },
+    {
+      "source": "URBAN SYSTEMS LAB",
+      "target": "城市系统实验室"
+    },
+    {
+      "source": "PRINCIPLES",
+      "target": "原则"
+    },
+    {
+      "source": "THREE WORKING PRINCIPLES",
+      "target": "三条工作原则"
+    },
+    {
+      "source": "Three principles for quieter systems",
+      "target": "让系统安静下来的三个原则"
+    },
+    {
+      "source": "Calm technology is not a style of screen. It is a set of decisions about when a system should speak, how it should move, and what it should leave to the person in front of it.",
+      "target": "安静的技术不是某种屏幕风格。它是一组取舍：系统何时开口、如何行动，以及应该把什么留给站在它面前的人。"
+    },
+    {
+      "source": "Speak only when spoken to",
+      "target": "只在被问到时开口"
+    },
+    {
+      "source": "A calm system defaults to silence. It does not celebrate every login, nudge every inactive account or turn a routine confirmation into a full-screen event. The default state should be quiet enough that a message means something when it arrives.",
+      "target": "安静的系统默认保持沉默。它不会为每次登录喝彩，不会催促每一个不活跃的账户，也不会把一次例行确认变成全屏事件。默认状态应当足够安静，让一条消息在真正到来时仍然有意义。"
+    },
+    {
+      "source": "Move at the speed of trust",
+      "target": "以信任的速度运行"
+    },
+    {
+      "source": "Good urban services arrive on time and then get out of the way. They show their working, keep a human channel open and never make an irreversible decision on behalf of someone who has not been asked. Trust is built in the pauses as much as in the promises.",
+      "target": "好的城市服务准时出现，然后让到一边。它们展示自己的依据，保留一条人工通道，也绝不会替一个没有被询问过的人做出不可逆的决定。信任既建立在承诺里，也建立在那些停顿里。"
+    },
+    {
+      "source": "Leave room for the human",
+      "target": "给人留出余地"
+    },
+    {
+      "source": "Automation should make the next human action easier, not make it unnecessary. A form that remembers, a map that admits uncertainty, a service that hands over cleanly to a person: these are quiet forms of respect, and they scale better than any notification.",
+      "target": "自动化应当让人的下一步更容易，而不是让这一步变得不必要。一个会记得你的表单、一张承认不确定性的地图、一次干净地交接给真人的服务——这些都是安静形式的尊重，也比任何通知更能扩展。"
+    },
+    {
+      "source": "A city feels calm when its systems remember that people are not tasks.",
+      "target": "当系统记得人不是任务，城市才会显得安静。"
+    },
+    {
+      "source": "Urban Systems Lab / hello@urbansystems.example / Shared for discussion. FIELD NOTE 07 / 2025",
+      "target": "城市系统实验室 / hello@urbansystems.example / 供讨论交流。田野笔记 07 / 2025"
+    }
+  ]
+}
